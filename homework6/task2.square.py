@@ -7,6 +7,3 @@ def square(side: int):
     area = side ** 2
     diagonal = math.sqrt(2) * side
     return (perimeter, area, diagonal)
-
-if __name__ == "__main__":
-    print(square(2))
