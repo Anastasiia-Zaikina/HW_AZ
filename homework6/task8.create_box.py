@@ -1,4 +1,4 @@
-task = """Write a function with the following signature: def display_box(width: int, height: int, character="*") . 
+"""Write a function with the following signature: def display_box(width: int, height: int, character="*") .
 This function will draw a simple ASCII-art rectangle (non-filled) of the given height and width, using character to print the lines."""
 
 def display_box(width: int, height: int, character="*"):
