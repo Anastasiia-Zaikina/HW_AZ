@@ -100,3 +100,7 @@ class Company:
     def create_company_with_revenue(cls, name, offices, departments, employees, products, turnover, taxes):
         revenue = turnover - ((turnover * taxes) / 100)
         return cls(name, offices, departments, employees, products, revenue)
+
+    @staticmethod
+    def show_work_days():
+        print('The company is open from Monday to Friday')
